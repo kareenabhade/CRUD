@@ -1,0 +1,91 @@
+.book{
+    flex:1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin: 20px;
+    background-color: #F0F0F0;
+    padding: 10px;
+    border-radius: 10px;
+    box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+    width: 200px;
+}
+.addButton{
+    margin: 20px;
+    padding: 10px;
+    border-radius: 10px;
+    background-color: #AED2FF;
+    text-decoration:none;
+}
+
+.deleteButton{
+    margin: 5px;
+    padding: 5px;
+    border-radius: 5px;
+    color: black;
+    font-weight:500;
+    background-color: #FA7070;
+}
+
+.updateButton{
+    margin: 5px;
+    padding: 5px;
+    border-radius: 5px;
+    color: black;
+    font-weight:500;
+    background-color: #A6CF98;
+}
+.mainContainer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.bookDescp{
+    text-align: center;
+}
+
+.booksContainer{
+    display: flex;
+}
+
+.form{
+    display:flex;
+    flex-direction: column;
+    border: 3px solid black;
+    padding:20px;
+    margin-top: 100px;
+}
+
+.bookInfo{
+    padding:10px;
+    margin: 10px;
+}
+
+.bookImg{
+    height: 100px;
+    width: 100px;
+    object-fit: cover;
+}
+
+.addBook{
+    margin: 20px;
+    padding: 10px;
+    border-radius: 10px;
+    background-color: #F8DE22;
+    text-decoration:none;
+}
+
+.updateBook{
+    margin: 20px;
+    padding: 10px;
+    border-radius: 10px;
+    background-color: #F875AA;
+    text-decoration:none;
+}
+
+.bookTitle{
+    text-align: center;
+}
